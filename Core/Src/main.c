@@ -18,11 +18,11 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "dma.h"
 #include "tim.h"
 #include "usart.h"
 #include "gpio.h"
-#include "remote.h"
-
+#include "callback.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
@@ -47,7 +47,7 @@
 
 /* USER CODE BEGIN PV */
 //uint8_t tx_msg[] = "ROBOMASTER_2027\r\n";
-uint8_t rx_msg[10];
+uint8_t rx_msg[36];
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -90,10 +90,12 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
+  MX_DMA_Init();
   MX_TIM1_Init();
   MX_USART3_UART_Init();
   /* USER CODE BEGIN 2 */
-
+  robotinit();
+  HAL_UARTEx_ReceiveToIdle_DMA(&huart3,rx_msg,36);
   /* USER CODE END 2 */
 
   /* Infinite loop */

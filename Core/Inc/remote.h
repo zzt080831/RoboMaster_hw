@@ -50,7 +50,7 @@ public:
     
     void init(void);
     void reset(void);
-    void rxMsgCallback(uint8_t* rx_data_);
+    void rxMsgCallback();
     bool rxMsgCheck(UART_HandleTypeDef* huart) const;
     void handle(void);
     

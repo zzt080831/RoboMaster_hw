@@ -1,6 +1,7 @@
 --cpu=Cortex-M4.fp.sp
 "usart_guide\startup_stm32f407xx.o"
 "usart_guide\callback.o"
+"usart_guide\remote.o"
 "usart_guide\main.o"
 "usart_guide\gpio.o"
 "usart_guide\dma.o"

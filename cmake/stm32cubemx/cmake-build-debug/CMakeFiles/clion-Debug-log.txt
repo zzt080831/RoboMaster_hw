@@ -14,13 +14,13 @@ CMake Error at D:/Program Files/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.2
 
   It fails with the following output:
 
-    Change Dir: 'D:/kentliukx/clionprojects/USART_guide/cmake/stm32cubemx/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-1y9m2w'
+    Change Dir: 'D:/kentliukx/clionprojects/USART_guide/cmake/stm32cubemx/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-897lqf'
     
-    Run Build Command(s): "D:/Program Files/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_1c4a0
-    [1/2] D:\PROGRA~2\133167~1.3RE\bin\AR19DD~1.EXE   -fdiagnostics-color=always -o CMakeFiles/cmTC_1c4a0.dir/testCCompiler.c.obj -c D:/kentliukx/clionprojects/USART_guide/cmake/stm32cubemx/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-1y9m2w/testCCompiler.c
-    [2/2] C:\WINDOWS\system32\cmd.exe /C "cd . && D:\PROGRA~2\133167~1.3RE\bin\AR19DD~1.EXE   CMakeFiles/cmTC_1c4a0.dir/testCCompiler.c.obj -o cmTC_1c4a0.exe -Wl,--out-implib,libcmTC_1c4a0.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
-    FAILED: cmTC_1c4a0.exe 
-    C:\WINDOWS\system32\cmd.exe /C "cd . && D:\PROGRA~2\133167~1.3RE\bin\AR19DD~1.EXE   CMakeFiles/cmTC_1c4a0.dir/testCCompiler.c.obj -o cmTC_1c4a0.exe -Wl,--out-implib,libcmTC_1c4a0.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+    Run Build Command(s): "D:/Program Files/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_dfe3a
+    [1/2] D:\PROGRA~2\133167~1.3RE\bin\AR19DD~1.EXE   -fdiagnostics-color=always -o CMakeFiles/cmTC_dfe3a.dir/testCCompiler.c.obj -c D:/kentliukx/clionprojects/USART_guide/cmake/stm32cubemx/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-897lqf/testCCompiler.c
+    [2/2] C:\WINDOWS\system32\cmd.exe /C "cd . && D:\PROGRA~2\133167~1.3RE\bin\AR19DD~1.EXE   CMakeFiles/cmTC_dfe3a.dir/testCCompiler.c.obj -o cmTC_dfe3a.exe -Wl,--out-implib,libcmTC_dfe3a.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+    FAILED: cmTC_dfe3a.exe 
+    C:\WINDOWS\system32\cmd.exe /C "cd . && D:\PROGRA~2\133167~1.3RE\bin\AR19DD~1.EXE   CMakeFiles/cmTC_dfe3a.dir/testCCompiler.c.obj -o cmTC_dfe3a.exe -Wl,--out-implib,libcmTC_dfe3a.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
     D:/PROGRA~2/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: unrecognized option '--major-image-version'
     D:/PROGRA~2/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: use the --help option for usage information
     collect2.exe: error: ld returned 1 exit status

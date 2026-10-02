@@ -4,5 +4,5 @@
 
 #ifndef CALLBACK_H
 #define CALLBACK_H
-
+void robotinit();
 #endif //CALLBACK_H

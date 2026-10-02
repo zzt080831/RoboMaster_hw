@@ -1,5 +1,5 @@
 #include "main.h"
-#include "remote.cpp"
+#include "remote.h"
 Remote rc(&huart3);
 //extern uint8_t rx_msg[10];
 //uint8_t tx_msg [10];
@@ -20,7 +20,7 @@ void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef *huart, uint16_t Size){
 //  }
   if(huart==&huart3&&(HAL_UARTEx_GetRxEventType(huart) == HAL_UART_RXEVENT_TC|| HAL_UARTEx_GetRxEventType(huart) == HAL_UART_RXEVENT_IDLE)){
     rc.handle();
-    rc.rxMsgCallback(rc.rx_data_);
+    rc.rxMsgCallback();
   }
 }
 
