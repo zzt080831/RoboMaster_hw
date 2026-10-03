@@ -5,7 +5,7 @@
 #ifndef CAN_USER_H
 #define CAN_USER_H
 
-#include "stm32f4xx_hal_can.h"
+#include "stm32f4xx_hal.h"
 
 extern CAN_RxHeaderTypeDef rx_header;
 extern CAN_TxHeaderTypeDef tx_header;

@@ -18,6 +18,7 @@ target_include_directories(stm32cubemx INTERFACE
     ../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
     ../../Drivers/CMSIS/Device/ST/STM32F4xx/Include
     ../../Drivers/CMSIS/Include
+		../../UserCode
 )
 
 target_sources(stm32cubemx INTERFACE
