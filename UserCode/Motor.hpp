@@ -10,7 +10,7 @@ class Motor{
     void canRxMsgCallback(const uint8_t rx_data[8]);
 
     float angle() const;
-    uint16_t speedRpm() const;
+    int16_t speedRpm() const;
     float currentAmps() const;
     uint8_t temperatureC() const;
 
